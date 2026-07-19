@@ -1,0 +1,8 @@
+idx,voice,label,instruction,status,characters,request_id,audio_url,local_file,error
+1,Cherry,女声-悬疑讲述,中文女声，悬疑故事解说，冷静克制，尾句压低。,ok,125,d0c393de-9a81-4908-8426-37e8c7343011,http://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/1d/01/20260301/9f107364/8bc1d588-3664-436c-93cd-f31047170adf.wav?Expires=1772434944&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=W1QywFjxckh2IqSZuwir4HIJl9o%3D,01_Cherry.wav,
+2,Chelsie,女声-温柔叙述,中文女声，柔和但有神秘感，适合短视频故事旁白。,ok,125,9ef6a83f-6594-420f-8610-4be2289eefd5,http://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/1d/72/20260301/9f107364/9960cfe0-272a-4125-8103-e53d95cb9faa.wav?Expires=1772434949&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=HFEjKvEmomOkJqfvAR4kqPt60ZU%3D,02_Chelsie.wav,
+3,Serena,女声-知性纪录片,中文女声，知性沉稳，节奏清晰，信息密度高。,ok,125,e1af9ff9-98ba-4082-89ca-296367697287,http://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/1d/43/20260301/9f107364/836d2147-dc33-4c0a-a1f4-5926e572f61a.wav?Expires=1772434953&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=fZzdPDrTchLp3Cf2Sj0fvQk2%2BBc%3D,03_Serena.wav,
+4,Ethan,男声-低沉悬疑,中文男声，低沉克制，悬疑氛围强，节奏中速。,ok,125,a4234752-7751-455c-9ba6-1b60cd4c8f62,http://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/1d/5f/20260301/9f107364/c816cfbe-ce40-448f-ada2-0355a0f9e599.wav?Expires=1772434956&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=O%2B0hFAsJNkVFE6ltxCL%2FF%2BqHgx4%3D,04_Ethan.wav,
+5,Dylan,男声-电影预告感,中文男声，磁性，像电影预告，停顿明显。,failed,,,,,HTTP Error 400: Bad Request
+6,Jada,女声-短视频口播,中文女声，口齿清楚，节奏偏快，适合社媒竖屏。,failed,,,,,HTTP Error 400: Bad Request
+7,Sunny,中性-年轻感,中文中性音色，年轻感，节奏明快，故事感强。,failed,,,,,HTTP Error 400: Bad Request

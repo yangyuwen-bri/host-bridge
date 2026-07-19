@@ -1,0 +1,320 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-002",
+    "title": "耳中人",
+    "qc_status": "agreed",
+    "consensus": {
+      "story_id": "lzz-v01-002",
+      "title": "耳中人",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "无",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [],
+        "female_agency": "无",
+        "ending_type": "惊悚收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "譚晉，邑諸生也",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "貌獰惡如夜叉狀",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "小人何所之矣，遂得顛疾，號叫不休",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "譚晉，邑諸生也",
+          "supports": [
+            "female_centrality",
+            "female_perspective",
+            "female_figures",
+            "female_agency"
+          ]
+        }
+      ],
+      "summary": "故事讲述譚晉耳中出现小人妖怪，最终导致精神失常，结局惊悚。",
+      "review_note": "故事中无女性角色或视角，女性相关标签均为无或空。",
+      "confidence": "高"
+    },
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-003",
+    "title": "尸變",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-004",
+    "title": "噴水",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-005",
+    "title": "瞳人語",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-006",
+    "title": "畫壁",
+    "qc_status": "agreed",
+    "consensus": {
+      "story_id": "lzz-v01-006",
+      "title": "畫壁",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "狐魅叙事",
+        "female_centrality": "关键",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "凡间女子"
+        ],
+        "female_agency": "中",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": [
+          "男性凝视与欲望投射",
+          "女性欲望与婚恋自主",
+          "神怪作为女性出口"
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "東壁畫散花天女，內一垂髫者拈花微笑",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "朱注目久，不覺神搖意奪",
+          "supports": [
+            "男性凝视与欲望投射"
+          ]
+        },
+        {
+          "quote": "遂與狎好。既而閉戶去，囑朱「勿欬」",
+          "supports": [
+            "女性欲望与婚恋自主",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "女驚起，與朱竊窺，則見金甲使者",
+          "supports": [
+            "女性主体表达较强",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "異史氏曰：幻由人生，此言類有道者。人有淫心，是生褻境",
+          "supports": [
+            "moral_evaluation"
+          ]
+        },
+        {
+          "quote": "朱驚拜老僧，而問其故，僧笑曰：「幻由人生，老僧何能解？」",
+          "supports": [
+            "ending_type"
+          ]
+        }
+      ],
+      "summary": "故事描写朱孝廉被壁画中女子引入幻境，经历情欲诱惑与神秘使者搜查，最终幻境消散，寓意人心生幻境。",
+      "review_note": "女性形象虽关键但视角以男性为主，女性主体表达有限，结局偏异闻收束，评价较弱。",
+      "confidence": "中"
+    },
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-007",
+    "title": "山魈",
+    "qc_status": "agreed",
+    "consensus": {
+      "story_id": "lzz-v01-007",
+      "title": "山魈",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "无",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [],
+        "female_agency": "无",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "孫太白嘗言：其曾祖肄業于南山柳溝寺",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "忽視之，一大鬼鞠躬塞入",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "公懼極；又念咫尺之地，勢無所逃",
+          "supports": [
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "無復他異",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "共驗之，則衾夾于寢門之隙",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "讲述孙太白曾祖在寺中遭遇山魈鬼怪入侵，虽奋力抵抗但无女性角色介入，故事以异闻形式收束。",
+      "review_note": "故事中无女性角色及视角，难以进行女性主义相关标注。",
+      "confidence": "高"
+    },
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-008",
+    "title": "咬鬼",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-009",
+    "title": "捉狐",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  },
+  {
+    "story_id": "lzz-v01-010",
+    "title": "荍中怪",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "left_model": "gpt-4.1-mini",
+    "right_model": "claude-3-5-sonnet-20241022",
+    "left_valid": true,
+    "right_valid": true,
+    "left_issues": [],
+    "right_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  }
+]

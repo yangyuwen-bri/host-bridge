@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>志怪数据集探索看板</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Standalone Dataset Explorer</p>
+          <h1>志怪数据集探索看板</h1>
+          <p class="lede">
+            这是一个完全独立的静态浏览页，专门用来探索样本来源、分卷分布和具体故事内容。
+            你可以按书系、分卷、关键词和排序方式切片数据，不依赖当前项目的任何路由或服务。
+          </p>
+        </div>
+        <div class="hero-note">
+          <div class="hero-note-title">当前数据源</div>
+          <p id="dataset-path"></p>
+        </div>
+      </header>
+
+      <section class="control-panel">
+        <div class="section-head compact">
+          <p class="eyebrow">Filters</p>
+          <h2>按书系、分卷和关键词切片</h2>
+        </div>
+        <div class="filter-grid">
+          <div class="control-block">
+            <label class="control-label">书系</label>
+            <div class="chip-row" id="collection-chips"></div>
+          </div>
+          <div class="control-block">
+            <label class="control-label" for="volume-select">分卷</label>
+            <select id="volume-select" class="control-input"></select>
+          </div>
+          <div class="control-block">
+            <label class="control-label" for="search-input">关键词</label>
+            <input
+              id="search-input"
+              class="control-input"
+              type="text"
+              placeholder="搜 story_id、标题或正文片段"
+            />
+          </div>
+          <div class="control-block">
+            <label class="control-label" for="sort-select">排序</label>
+            <select id="sort-select" class="control-input">
+              <option value="storyId">按 story_id</option>
+              <option value="title">按标题</option>
+              <option value="charCountDesc">按篇幅从长到短</option>
+              <option value="charCountAsc">按篇幅从短到长</option>
+            </select>
+          </div>
+        </div>
+        <div class="toolbar">
+          <div class="toolbar-actions">
+            <button class="ghost-btn" id="reset-button">重置筛选</button>
+            <button class="ghost-btn" id="export-json-button">导出当前 JSON</button>
+            <button class="ghost-btn" id="export-csv-button">导出当前 CSV</button>
+          </div>
+          <div class="toolbar-meta" id="result-meta"></div>
+        </div>
+      </section>
+
+      <section class="summary-grid" id="summary-grid"></section>
+
+      <section class="panel">
+        <div class="section-head compact">
+          <p class="eyebrow">Overview</p>
+          <h2>当前切片的来源分布</h2>
+          <p>这里会随着筛选条件实时变化，方便你看当前选中的故事主要集中在哪些书系和分卷。</p>
+        </div>
+        <div class="overview-grid">
+          <div>
+            <h3 class="subhead">书系分布</h3>
+            <div class="family-grid" id="family-grid"></div>
+          </div>
+          <div>
+            <h3 class="subhead">分卷分布</h3>
+            <div class="volume-list" id="volume-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="explorer-grid">
+        <section class="panel story-panel">
+          <div class="section-head compact">
+            <p class="eyebrow">Stories</p>
+            <h2>故事清单</h2>
+            <p>点击任意故事，右侧会展开完整文本。默认只展示当前切片下的一个分页结果。</p>
+          </div>
+          <div class="story-list" id="story-list"></div>
+          <div class="pagination" id="pagination"></div>
+        </section>
+
+        <aside class="panel detail-panel">
+          <div class="detail-head">
+            <div>
+              <p class="eyebrow">Story Detail</p>
+              <h2 id="detail-title">请选择一篇故事</h2>
+              <div class="detail-meta" id="detail-meta">当前没有选中的故事</div>
+            </div>
+          </div>
+          <div class="detail-actions" id="detail-actions"></div>
+          <div class="detail-text" id="detail-text">
+            从左侧故事清单中点击一项，这里会显示全文与基础信息。
+          </div>
+        </aside>
+      </section>
+
+      <footer class="footer">
+        <div>
+          直接打开当前目录下的 <code>index.html</code> 即可使用，不需要启动任何服务。
+        </div>
+      </footer>
+    </div>
+
+    <script src="./dataset.js"></script>
+    <script src="./report.js"></script>
+  </body>
+</html>

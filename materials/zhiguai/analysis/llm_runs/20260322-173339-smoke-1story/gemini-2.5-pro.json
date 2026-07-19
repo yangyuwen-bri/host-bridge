@@ -1,0 +1,76 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 20.75,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-001",
+      "title": "考城隍",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "仙神/龙女",
+        "female_centrality": "边缘",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "母亲/婆妪"
+        ],
+        "female_agency": "无",
+        "ending_type": "超脱成仙",
+        "moral_evaluation": "礼教嘉奖",
+        "feminist_angles": [
+          "父权家族/宗法"
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "予姊夫之祖，宋公諱燾",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "河南缺一城隍，君稱其職。",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "但老母七旬，奉養無人",
+          "supports": [
+            "female_centrality",
+            "female_figures",
+            "female_agency",
+            "feminist_angles"
+          ]
+        },
+        {
+          "quote": "公方悟，頓首泣曰",
+          "supports": [
+            "female_perspective"
+          ]
+        },
+        {
+          "quote": "母果卒，營葬既畢，浣濯入室而歿。",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "今推仁孝之心，給假九年",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "宋公病中被召考城隍，因孝顺老母获准延期九年。母逝后宋公即逝，升任城隍。",
+      "review_note": "",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-001\",\n  \"title\": \"考城隍\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"仙神/龙女\",\n    \"female_centrality\": \"边缘\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\n      \"母亲/婆妪\"\n    ],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"超脱成仙\",\n    \"moral_evaluation\": \"礼教嘉奖\",\n    \"feminist_angles\": [\n      \"父权家族/宗法\"\n    ]\n  },\n  \"evidence\": [\n    {\n      \"quote\": \"予姊夫之祖，宋公諱燾\",\n      \"supports\": [\n        \"story_dynasty\"\n      ]\n    },\n    {\n      \"quote\": \"河南缺一城隍，君稱其職。\",\n      \"supports\": [\n        \"story_type_primary\"\n      ]\n    },\n    {\n      \"quote\": \"但老母七旬，奉養無人\",\n      \"supports\": [\n        \"female_centrality\",\n        \"female_figures\",\n        \"female_agency\",\n        \"feminist_angles\"\n      ]\n    },\n    {\n      \"quote\": \"公方悟，頓首泣曰\",\n      \"supports\": [\n        \"female_perspective\"\n      ]\n    },\n    {\n      \"quote\": \"母果卒，營葬既畢，浣濯入室而歿。\",\n      \"supports\": [\n        \"ending_type\"\n      ]\n    },\n    {\n      \"quote\": \"今推仁孝之心，給假九年\",\n      \"supports\": [\n        \"moral_evaluation\"\n      ]\n    }\n  ],\n  \"summary\": \"宋公病中被召考城隍，因孝顺老母获准延期九年。母逝后宋公即逝，升任城隍。\",\n  \"review_note\": \"\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-23649e9c22204f4b80c15568ec95463b\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172050,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-001\\\",\\n  \\\"title\\\": \\\"考城隍\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"仙神/龙女\\\",\\n    \\\"female_centrality\\\": \\\"边缘\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\n      \\\"母亲/婆妪\\\"\\n    ],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"超脱成仙\\\",\\n    \\\"moral_evaluation\\\": \\\"礼教嘉奖\\\",\\n    \\\"feminist_angles\\\": [\\n      \\\"父权家族/宗法\\\"\\n    ]\\n  },\\n  \\\"evidence\\\": [\\n    {\\n      \\\"quote\\\": \\\"予姊夫之祖，宋公諱燾\\\",\\n      \\\"supports\\\": [\\n        \\\"story_dynasty\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"河南缺一城隍，君稱其職。\\\",\\n      \\\"supports\\\": [\\n        \\\"story_type_primary\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"但老母七旬，奉養無人\\\",\\n      \\\"supports\\\": [\\n        \\\"female_centrality\\\",\\n        \\\"female_figures\\\",\\n        \\\"female_agency\\\",\\n        \\\"feminist_angles\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"公方悟，頓首泣曰\\\",\\n      \\\"supports\\\": [\\n        \\\"female_perspective\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"母果卒，營葬既畢，浣濯入室而歿。\\\",\\n      \\\"supports\\\": [\\n        \\\"ending_type\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"今推仁孝之心，給假九年\\\",\\n      \\\"supports\\\": [\\n        \\\"moral_evaluation\\\"\\n      ]\\n    }\\n  ],\\n  \\\"summary\\\": \\\"宋公病中被召考城隍，因孝顺老母获准延期九年。母逝后宋公即逝，升任城隍。\\\",\\n  \\\"review_note\\\": \\\"\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1397,\"completion_tokens\":1368,\"total_tokens\":2765,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":870},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  }
+]

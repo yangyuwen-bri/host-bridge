@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "('gpt-4.1-mini', 200, True)": 1368,
+    "('claude-3-5-sonnet-20241022', 200, True)": 1319,
+    "('qc', 'disagreed')": 909,
+    "('qc', 'agreed')": 398,
+    "('claude-3-5-sonnet-20241022', 200, False)": 55,
+    "('qc', 'single_valid')": 73,
+    "('claude-3-5-sonnet-20241022', 429, False)": 20,
+    "('gpt-4.1-mini', 200, False)": 28,
+    "('qc', 'both_invalid')": 17,
+    "('gpt-4.1-mini', None, False)": 1,
+    "('claude-3-5-sonnet-20241022', None, False)": 3
+  }
+}

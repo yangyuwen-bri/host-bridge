@@ -1,0 +1,51 @@
+请对下面这篇志怪故事做结构化标注。
+
+要求：
+1. 只依据原文判断。
+2. 所有解释型字段都必须有原文证据。
+3. feminist_angles 最多选4个，宁缺毋滥。
+4. 如果证据不足，使用更保守的标签。
+5. 只输出 JSON。
+
+允许枚举：
+- story_dynasty: ["先秦两汉","魏晋南北朝","唐","宋","元","明","清","未明","跨代/杂糅"]
+- story_type_primary: ["狐魅叙事","鬼魂/冥府","仙神/龙女","妖怪/精魅","梦幻/异境","公案/申冤","伦理/报应","杂志异闻"]
+- female_centrality: ["无","边缘","关键","核心"]
+- female_perspective: ["无明显女性视角","男性转述/旁观","男性凝视主导","女性经验可见","女性主体表达较强"]
+- female_figures: ["凡间女子","妻妾/已婚女性","母亲/婆妪","婢女/侍女","烈女/侠女","女鬼/冤魂","狐女/狐仙","神女/仙女/龙女","巫妪/婆子","性别越界者"]
+- female_agency: ["无","低","中","高"]
+- ending_type: ["伸冤昭雪","报应惩戒","婚恋团圆","超脱成仙","悲剧/消散","惊悚收束","异闻收束"]
+- moral_evaluation: ["礼教嘉奖","礼教惩戒","因果报应","同情/赞赏女性主体","道德暧昧/同情越界","弱评价/异闻观照"]
+- feminist_angles: ["婚姻/婚配制度","父权家族/宗法","贞节规训","男性凝视与欲望投射","女性复仇/申冤","家庭暴力与虐待","照护劳动/生育责任","妻妾/婢妾与阶层","女性欲望与婚恋自主","女体妖魔化/他者化","性别越界/性别流动","神怪作为女性出口","女性互助/代际支持"]
+- confidence: ["高","中","低"]
+
+输出 JSON schema：
+{{
+  "story_id": "string",
+  "title": "string",
+  "labels": {{
+    "story_dynasty": "one enum",
+    "story_type_primary": "one enum",
+    "female_centrality": "one enum",
+    "female_perspective": "one enum",
+    "female_figures": ["0..N enums"],
+    "female_agency": "one enum",
+    "ending_type": "one enum",
+    "moral_evaluation": "one enum",
+    "feminist_angles": ["0..4 enums"]
+  }},
+  "evidence": [
+    {{"quote": "原文短句", "supports": ["label key"]}}
+  ],
+  "summary": "80字内概括",
+  "review_note": "有歧义则写明，没有则为空字符串",
+  "confidence": "高/中/低"
+}}
+
+story_id: {story_id}
+title: {title}
+collection: {collection}
+volume: {volume}
+
+story_text:
+{story_text}

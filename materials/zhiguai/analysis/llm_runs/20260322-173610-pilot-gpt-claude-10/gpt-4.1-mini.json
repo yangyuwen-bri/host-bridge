@@ -1,0 +1,721 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 6.59,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-001",
+      "title": "考城隍",
+      "labels": {
+        "story_dynasty": "宋",
+        "story_type_primary": "仙神/龙女",
+        "female_centrality": "边缘",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "母亲/婆妪"
+        ],
+        "female_agency": "无",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "但老母七旬，奉養無人",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "請得終其天年，惟聽錄用",
+          "supports": [
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "母聞棺中呻吟，扶出半日",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "公既騎，乃別而去，及抵里，豁若夢寤",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "公方悟，頓首泣曰",
+          "supports": [
+            "female_perspective"
+          ]
+        },
+        {
+          "quote": "其岳家居城中西門內，忽見公鏤膺朱幩",
+          "supports": [
+            "story_type_primary"
+          ]
+        }
+      ],
+      "summary": "宋代故事，讲述一位男子被召考城隍，因孝顺母亲请求延迟赴任，母亲去世后男子显灵，故事以异闻形式收束。",
+      "review_note": "女性角色主要为母亲，故事重心在男性经历，女性视角和能动性不足，故女性主义角度保守处理。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-001\",\n  \"title\": \"考城隍\",\n  \"labels\": {\n    \"story_dynasty\": \"宋\",\n    \"story_type_primary\": \"仙神/龙女\",\n    \"female_centrality\": \"边缘\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"母亲/婆妪\"],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"但老母七旬，奉養無人\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"請得終其天年，惟聽錄用\", \"supports\": [\"female_centrality\"]},\n    {\"quote\": \"母聞棺中呻吟，扶出半日\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"公既騎，乃別而去，及抵里，豁若夢寤\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"公方悟，頓首泣曰\", \"supports\": [\"female_perspective\"]},\n    {\"quote\": \"其岳家居城中西門內，忽見公鏤膺朱幩\", \"supports\": [\"story_type_primary\"]}\n  ],\n  \"summary\": \"宋代故事，讲述一位男子被召考城隍，因孝顺母亲请求延迟赴任，母亲去世后男子显灵，故事以异闻形式收束。\",\n  \"review_note\": \"女性角色主要为母亲，故事重心在男性经历，女性视角和能动性不足，故女性主义角度保守处理。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9WD6nUT6fMbSr0vo2R0zjiESowU\",\"object\":\"chat.completion\",\"created\":1774172177,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-001\\\",\\n  \\\"title\\\": \\\"考城隍\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"宋\\\",\\n    \\\"story_type_primary\\\": \\\"仙神/龙女\\\",\\n    \\\"female_centrality\\\": \\\"边缘\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"母亲/婆妪\\\"],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"但老母七旬，奉養無人\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"請得終其天年，惟聽錄用\\\", \\\"supports\\\": [\\\"female_centrality\\\"]},\\n    {\\\"quote\\\": \\\"母聞棺中呻吟，扶出半日\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"公既騎，乃別而去，及抵里，豁若夢寤\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"公方悟，頓首泣曰\\\", \\\"supports\\\": [\\\"female_perspective\\\"]},\\n    {\\\"quote\\\": \\\"其岳家居城中西門內，忽見公鏤膺朱幩\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"宋代故事，讲述一位男子被召考城隍，因孝顺母亲请求延迟赴任，母亲去世后男子显灵，故事以异闻形式收束。\\\",\\n  \\\"review_note\\\": \\\"女性角色主要为母亲，故事重心在男性经历，女性视角和能动性不足，故女性主义角度保守处理。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1479,\"completion_tokens\":415,\"total_tokens\":1894,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-002",
+    "title": "耳中人",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 5.48,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-002",
+      "title": "耳中人",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "无",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [],
+        "female_agency": "无",
+        "ending_type": "惊悚收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "譚晉，邑諸生也",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "貌獰惡如夜叉狀",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "小人何所之矣，遂得顛疾，號叫不休",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "譚晉，邑諸生也",
+          "supports": [
+            "female_centrality",
+            "female_perspective",
+            "female_figures",
+            "female_agency"
+          ]
+        }
+      ],
+      "summary": "故事讲述譚晉耳中出现小人妖怪，最终导致精神失常，结局惊悚。",
+      "review_note": "故事中无女性角色或视角，女性相关标签均为无或空。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-002\",\n  \"title\": \"耳中人\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"妖怪/精魅\",\n    \"female_centrality\": \"无\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"惊悚收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"譚晉，邑諸生也\", \"supports\": [\"story_dynasty\"]},\n    {\"quote\": \"貌獰惡如夜叉狀\", \"supports\": [\"story_type_primary\"]},\n    {\"quote\": \"小人何所之矣，遂得顛疾，號叫不休\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"譚晉，邑諸生也\", \"supports\": [\"female_centrality\",\"female_perspective\",\"female_figures\",\"female_agency\"]}\n  ],\n  \"summary\": \"故事讲述譚晉耳中出现小人妖怪，最终导致精神失常，结局惊悚。\",\n  \"review_note\": \"故事中无女性角色或视角，女性相关标签均为无或空。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9WO1MdRY7m1vqZ68lw9yJ9RreLB\",\"object\":\"chat.completion\",\"created\":1774172188,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-002\\\",\\n  \\\"title\\\": \\\"耳中人\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"妖怪/精魅\\\",\\n    \\\"female_centrality\\\": \\\"无\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"惊悚收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"譚晉，邑諸生也\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]},\\n    {\\\"quote\\\": \\\"貌獰惡如夜叉狀\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]},\\n    {\\\"quote\\\": \\\"小人何所之矣，遂得顛疾，號叫不休\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"譚晉，邑諸生也\\\", \\\"supports\\\": [\\\"female_centrality\\\",\\\"female_perspective\\\",\\\"female_figures\\\",\\\"female_agency\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述譚晉耳中出现小人妖怪，最终导致精神失常，结局惊悚。\\\",\\n  \\\"review_note\\\": \\\"故事中无女性角色或视角，女性相关标签均为无或空。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1097,\"completion_tokens\":321,\"total_tokens\":1418,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-003",
+    "title": "尸變",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 8.82,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-003",
+      "title": "尸變",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "关键",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "凡间女子"
+        ],
+        "female_agency": "中",
+        "ending_type": "惊悚收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": [
+          "女体妖魔化/他者化"
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "子妇新死，停尸室中",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "女尸已揭衾起",
+          "supports": [
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "女尸起，似将逐客",
+          "supports": [
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "尸暴起，伸两臂探扑之",
+          "supports": [
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "尸馳從之",
+          "supports": [
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "尸已至，去身盈尺",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "女尸已揭衾起",
+          "supports": [
+            "feminist_angles"
+          ]
+        },
+        {
+          "quote": "无明显女性视角",
+          "supports": [
+            "female_perspective"
+          ]
+        },
+        {
+          "quote": "邑之蔡店人。村去城五六里，父子设临路店",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "道人竊聽良久，無聲，始漸出",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "故事讲述一具新死妇女尸体复活，追逐客人，最终惊悚收束，体现女尸妖魔化形象。",
+      "review_note": "故事中女性形象主要为复活女尸，缺乏女性视角和主体表达，女性能动性有限。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-003\",\n  \"title\": \"尸變\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"妖怪/精魅\",\n    \"female_centrality\": \"关键\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"凡间女子\"],\n    \"female_agency\": \"中\",\n    \"ending_type\": \"惊悚收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": [\"女体妖魔化/他者化\"]\n  },\n  \"evidence\": [\n    {\"quote\": \"子妇新死，停尸室中\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"女尸已揭衾起\", \"supports\": [\"female_centrality\"]},\n    {\"quote\": \"女尸起，似将逐客\", \"supports\": [\"female_agency\"]},\n    {\"quote\": \"尸暴起，伸两臂探扑之\", \"supports\": [\"female_agency\"]},\n    {\"quote\": \"尸馳從之\", \"supports\": [\"female_agency\"]},\n    {\"quote\": \"尸已至，去身盈尺\", \"supports\": [\"story_type_primary\"]},\n    {\"quote\": \"女尸已揭衾起\", \"supports\": [\"feminist_angles\"]},\n    {\"quote\": \"无明显女性视角\", \"supports\": [\"female_perspective\"]},\n    {\"quote\": \"邑之蔡店人。村去城五六里，父子设临路店\", \"supports\": [\"story_dynasty\"]},\n    {\"quote\": \"道人竊聽良久，無聲，始漸出\", \"supports\": [\"moral_evaluation\"]}\n  ],\n  \"summary\": \"故事讲述一具新死妇女尸体复活，追逐客人，最终惊悚收束，体现女尸妖魔化形象。\",\n  \"review_note\": \"故事中女性形象主要为复活女尸，缺乏女性视角和主体表达，女性能动性有限。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9WYDPOZWEZ1deQtXFFYnlo7cUm4\",\"object\":\"chat.completion\",\"created\":1774172198,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-003\\\",\\n  \\\"title\\\": \\\"尸變\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"妖怪/精魅\\\",\\n    \\\"female_centrality\\\": \\\"关键\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"凡间女子\\\"],\\n    \\\"female_agency\\\": \\\"中\\\",\\n    \\\"ending_type\\\": \\\"惊悚收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": [\\\"女体妖魔化/他者化\\\"]\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"子妇新死，停尸室中\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"女尸已揭衾起\\\", \\\"supports\\\": [\\\"female_centrality\\\"]},\\n    {\\\"quote\\\": \\\"女尸起，似将逐客\\\", \\\"supports\\\": [\\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"尸暴起，伸两臂探扑之\\\", \\\"supports\\\": [\\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"尸馳從之\\\", \\\"supports\\\": [\\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"尸已至，去身盈尺\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]},\\n    {\\\"quote\\\": \\\"女尸已揭衾起\\\", \\\"supports\\\": [\\\"feminist_angles\\\"]},\\n    {\\\"quote\\\": \\\"无明显女性视角\\\", \\\"supports\\\": [\\\"female_perspective\\\"]},\\n    {\\\"quote\\\": \\\"邑之蔡店人。村去城五六里，父子设临路店\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]},\\n    {\\\"quote\\\": \\\"道人竊聽良久，無聲，始漸出\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述一具新死妇女尸体复活，追逐客人，最终惊悚收束，体现女尸妖魔化形象。\\\",\\n  \\\"review_note\\\": \\\"故事中女性形象主要为复活女尸，缺乏女性视角和主体表达，女性能动性有限。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1799,\"completion_tokens\":479,\"total_tokens\":2278,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-004",
+    "title": "噴水",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 5.74,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-004",
+      "title": "噴水",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "关键",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "婢女/侍女",
+          "妻妾/已婚女性",
+          "母亲/婆妪"
+        ],
+        "female_agency": "无",
+        "ending_type": "惊悚收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "二婢奉太夫人宿廳上",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "見一老嫗，短身駝背，白髮如帚",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "家人畢集，叩門不應",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "骨肉皆爛，皮內盡清水",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "聊斋志异",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "所僦第，甚荒落",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "二婢扶窗下聚觀之",
+          "supports": [
+            "female_centrality"
+          ]
+        }
+      ],
+      "summary": "故事讲述太夫人与二婢夜宿荒落宅邸，遇见喷水老嫗，次日发现主仆三人死于室内，结局惊悚。",
+      "review_note": "故事中女性角色多为被动目击者，缺乏女性主体视角和行动，故女性代理评估为无。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-004\",\n  \"title\": \"噴水\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"妖怪/精魅\",\n    \"female_centrality\": \"关键\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"婢女/侍女\", \"妻妾/已婚女性\", \"母亲/婆妪\"],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"惊悚收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"二婢奉太夫人宿廳上\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"見一老嫗，短身駝背，白髮如帚\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"家人畢集，叩門不應\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"骨肉皆爛，皮內盡清水\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"聊斋志异\", \"supports\": [\"story_dynasty\"]},\n    {\"quote\": \"所僦第，甚荒落\", \"supports\": [\"story_type_primary\"]},\n    {\"quote\": \"二婢扶窗下聚觀之\", \"supports\": [\"female_centrality\"]}\n  ],\n  \"summary\": \"故事讲述太夫人与二婢夜宿荒落宅邸，遇见喷水老嫗，次日发现主仆三人死于室内，结局惊悚。\",\n  \"review_note\": \"故事中女性角色多为被动目击者，缺乏女性主体视角和行动，故女性代理评估为无。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9WpsAVi6ZirmymYBg2fn8ThORed\",\"object\":\"chat.completion\",\"created\":1774172215,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-004\\\",\\n  \\\"title\\\": \\\"噴水\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"妖怪/精魅\\\",\\n    \\\"female_centrality\\\": \\\"关键\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"婢女/侍女\\\", \\\"妻妾/已婚女性\\\", \\\"母亲/婆妪\\\"],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"惊悚收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"二婢奉太夫人宿廳上\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"見一老嫗，短身駝背，白髮如帚\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"家人畢集，叩門不應\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"骨肉皆爛，皮內盡清水\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"聊斋志异\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]},\\n    {\\\"quote\\\": \\\"所僦第，甚荒落\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]},\\n    {\\\"quote\\\": \\\"二婢扶窗下聚觀之\\\", \\\"supports\\\": [\\\"female_centrality\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述太夫人与二婢夜宿荒落宅邸，遇见喷水老嫗，次日发现主仆三人死于室内，结局惊悚。\\\",\\n  \\\"review_note\\\": \\\"故事中女性角色多为被动目击者，缺乏女性主体视角和行动，故女性代理评估为无。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1161,\"completion_tokens\":432,\"total_tokens\":1593,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-005",
+    "title": "瞳人語",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 5.86,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-005",
+      "title": "瞳人語",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "边缘",
+        "female_perspective": "男性转述/旁观",
+        "female_figures": [
+          "妻妾/已婚女性",
+          "婢女/侍女"
+        ],
+        "female_agency": "低",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": [
+          "男性凝视与欲望投射"
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "每陌上見游女，輒輕薄尾綴之",
+          "supports": [
+            "feminist_angles"
+          ]
+        },
+        {
+          "quote": "內坐二八女郎，紅妝艷麗",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "婢乃下簾，怒顧生曰",
+          "supports": [
+            "female_figures",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "鄉有士人，偕二友於途，遙見少婦，控驢出其前，戲而吟曰",
+          "supports": [
+            "feminist_angles"
+          ]
+        },
+        {
+          "quote": "生雖一目眇，而較之雙目者，殊更了了。由是益自檢束，鄉中稱盛德焉",
+          "supports": [
+            "moral_evaluation"
+          ]
+        },
+        {
+          "quote": "然小郎君生闢門戶，鬼神雖惡，亦何嘗不許人自新哉",
+          "supports": [
+            "ending_type"
+          ]
+        }
+      ],
+      "summary": "故事讲述一士人因轻薄女子而被神秘力量惩罚，最终自省改过，体现男性视角下的女性形象与欲望投射。",
+      "review_note": "女性形象多为被动，故事以男性视角叙述，女性主体性和能动性较弱。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-005\",\n  \"title\": \"瞳人語\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"妖怪/精魅\",\n    \"female_centrality\": \"边缘\",\n    \"female_perspective\": \"男性转述/旁观\",\n    \"female_figures\": [\"妻妾/已婚女性\", \"婢女/侍女\"],\n    \"female_agency\": \"低\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": [\"男性凝视与欲望投射\"]\n  },\n  \"evidence\": [\n    {\"quote\": \"每陌上見游女，輒輕薄尾綴之\", \"supports\": [\"feminist_angles\"]},\n    {\"quote\": \"內坐二八女郎，紅妝艷麗\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"婢乃下簾，怒顧生曰\", \"supports\": [\"female_figures\", \"female_agency\"]},\n    {\"quote\": \"鄉有士人，偕二友於途，遙見少婦，控驢出其前，戲而吟曰\", \"supports\": [\"feminist_angles\"]},\n    {\"quote\": \"生雖一目眇，而較之雙目者，殊更了了。由是益自檢束，鄉中稱盛德焉\", \"supports\": [\"moral_evaluation\"]},\n    {\"quote\": \"然小郎君生闢門戶，鬼神雖惡，亦何嘗不許人自新哉\", \"supports\": [\"ending_type\"]}\n  ],\n  \"summary\": \"故事讲述一士人因轻薄女子而被神秘力量惩罚，最终自省改过，体现男性视角下的女性形象与欲望投射。\",\n  \"review_note\": \"女性形象多为被动，故事以男性视角叙述，女性主体性和能动性较弱。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9X2QpcbfGt9iplZE8kxvq4i5TCT\",\"object\":\"chat.completion\",\"created\":1774172228,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-005\\\",\\n  \\\"title\\\": \\\"瞳人語\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"妖怪/精魅\\\",\\n    \\\"female_centrality\\\": \\\"边缘\\\",\\n    \\\"female_perspective\\\": \\\"男性转述/旁观\\\",\\n    \\\"female_figures\\\": [\\\"妻妾/已婚女性\\\", \\\"婢女/侍女\\\"],\\n    \\\"female_agency\\\": \\\"低\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": [\\\"男性凝视与欲望投射\\\"]\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"每陌上見游女，輒輕薄尾綴之\\\", \\\"supports\\\": [\\\"feminist_angles\\\"]},\\n    {\\\"quote\\\": \\\"內坐二八女郎，紅妝艷麗\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"婢乃下簾，怒顧生曰\\\", \\\"supports\\\": [\\\"female_figures\\\", \\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"鄉有士人，偕二友於途，遙見少婦，控驢出其前，戲而吟曰\\\", \\\"supports\\\": [\\\"feminist_angles\\\"]},\\n    {\\\"quote\\\": \\\"生雖一目眇，而較之雙目者，殊更了了。由是益自檢束，鄉中稱盛德焉\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]},\\n    {\\\"quote\\\": \\\"然小郎君生闢門戶，鬼神雖惡，亦何嘗不許人自新哉\\\", \\\"supports\\\": [\\\"ending_type\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述一士人因轻薄女子而被神秘力量惩罚，最终自省改过，体现男性视角下的女性形象与欲望投射。\\\",\\n  \\\"review_note\\\": \\\"女性形象多为被动，故事以男性视角叙述，女性主体性和能动性较弱。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1903,\"completion_tokens\":479,\"total_tokens\":2382,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-006",
+    "title": "畫壁",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 6.3,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-006",
+      "title": "畫壁",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "狐魅叙事",
+        "female_centrality": "关键",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "凡间女子"
+        ],
+        "female_agency": "中",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": [
+          "男性凝视与欲望投射",
+          "女性欲望与婚恋自主",
+          "神怪作为女性出口"
+        ]
+      },
+      "evidence": [
+        {
+          "quote": "東壁畫散花天女，內一垂髫者拈花微笑",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "朱注目久，不覺神搖意奪",
+          "supports": [
+            "男性凝视与欲望投射"
+          ]
+        },
+        {
+          "quote": "遂與狎好。既而閉戶去，囑朱「勿欬」",
+          "supports": [
+            "女性欲望与婚恋自主",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "女驚起，與朱竊窺，則見金甲使者",
+          "supports": [
+            "女性主体表达较强",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "異史氏曰：幻由人生，此言類有道者。人有淫心，是生褻境",
+          "supports": [
+            "moral_evaluation"
+          ]
+        },
+        {
+          "quote": "朱驚拜老僧，而問其故，僧笑曰：「幻由人生，老僧何能解？」",
+          "supports": [
+            "ending_type"
+          ]
+        }
+      ],
+      "summary": "故事描写朱孝廉被壁画中女子引入幻境，经历情欲诱惑与神秘使者搜查，最终幻境消散，寓意人心生幻境。",
+      "review_note": "女性形象虽关键但视角以男性为主，女性主体表达有限，结局偏异闻收束，评价较弱。",
+      "confidence": "中"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-006\",\n  \"title\": \"畫壁\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"狐魅叙事\",\n    \"female_centrality\": \"关键\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"凡间女子\"],\n    \"female_agency\": \"中\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": [\"男性凝视与欲望投射\", \"女性欲望与婚恋自主\", \"神怪作为女性出口\"]\n  },\n  \"evidence\": [\n    {\"quote\": \"東壁畫散花天女，內一垂髫者拈花微笑\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"朱注目久，不覺神搖意奪\", \"supports\": [\"男性凝视与欲望投射\"]},\n    {\"quote\": \"遂與狎好。既而閉戶去，囑朱「勿欬」\", \"supports\": [\"女性欲望与婚恋自主\", \"female_agency\"]},\n    {\"quote\": \"女驚起，與朱竊窺，則見金甲使者\", \"supports\": [\"女性主体表达较强\", \"female_agency\"]},\n    {\"quote\": \"異史氏曰：幻由人生，此言類有道者。人有淫心，是生褻境\", \"supports\": [\"moral_evaluation\"]},\n    {\"quote\": \"朱驚拜老僧，而問其故，僧笑曰：「幻由人生，老僧何能解？」\", \"supports\": [\"ending_type\"]}\n  ],\n  \"summary\": \"故事描写朱孝廉被壁画中女子引入幻境，经历情欲诱惑与神秘使者搜查，最终幻境消散，寓意人心生幻境。\",\n  \"review_note\": \"女性形象虽关键但视角以男性为主，女性主体表达有限，结局偏异闻收束，评价较弱。\",\n  \"confidence\": \"中\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9XEnw1GnzaHH8xHvYXcHo6pHaqh\",\"object\":\"chat.completion\",\"created\":1774172240,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-006\\\",\\n  \\\"title\\\": \\\"畫壁\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"狐魅叙事\\\",\\n    \\\"female_centrality\\\": \\\"关键\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"凡间女子\\\"],\\n    \\\"female_agency\\\": \\\"中\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": [\\\"男性凝视与欲望投射\\\", \\\"女性欲望与婚恋自主\\\", \\\"神怪作为女性出口\\\"]\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"東壁畫散花天女，內一垂髫者拈花微笑\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"朱注目久，不覺神搖意奪\\\", \\\"supports\\\": [\\\"男性凝视与欲望投射\\\"]},\\n    {\\\"quote\\\": \\\"遂與狎好。既而閉戶去，囑朱「勿欬」\\\", \\\"supports\\\": [\\\"女性欲望与婚恋自主\\\", \\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"女驚起，與朱竊窺，則見金甲使者\\\", \\\"supports\\\": [\\\"女性主体表达较强\\\", \\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"異史氏曰：幻由人生，此言類有道者。人有淫心，是生褻境\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]},\\n    {\\\"quote\\\": \\\"朱驚拜老僧，而問其故，僧笑曰：「幻由人生，老僧何能解？」\\\", \\\"supports\\\": [\\\"ending_type\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事描写朱孝廉被壁画中女子引入幻境，经历情欲诱惑与神秘使者搜查，最终幻境消散，寓意人心生幻境。\\\",\\n  \\\"review_note\\\": \\\"女性形象虽关键但视角以男性为主，女性主体表达有限，结局偏异闻收束，评价较弱。\\\",\\n  \\\"confidence\\\": \\\"中\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1885,\"completion_tokens\":490,\"total_tokens\":2375,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-007",
+    "title": "山魈",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 4.06,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-007",
+      "title": "山魈",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "无",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [],
+        "female_agency": "无",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "孫太白嘗言：其曾祖肄業于南山柳溝寺",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "忽視之，一大鬼鞠躬塞入",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "公懼極；又念咫尺之地，勢無所逃",
+          "supports": [
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "無復他異",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "共驗之，則衾夾于寢門之隙",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "讲述孙太白曾祖在寺中遭遇山魈鬼怪入侵，虽奋力抵抗但无女性角色介入，故事以异闻形式收束。",
+      "review_note": "故事中无女性角色及视角，难以进行女性主义相关标注。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-007\",\n  \"title\": \"山魈\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"妖怪/精魅\",\n    \"female_centrality\": \"无\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"孫太白嘗言：其曾祖肄業于南山柳溝寺\", \"supports\": [\"story_dynasty\"]},\n    {\"quote\": \"忽視之，一大鬼鞠躬塞入\", \"supports\": [\"story_type_primary\"]},\n    {\"quote\": \"公懼極；又念咫尺之地，勢無所逃\", \"supports\": [\"female_centrality\"]},\n    {\"quote\": \"無復他異\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"共驗之，則衾夾于寢門之隙\", \"supports\": [\"moral_evaluation\"]}\n  ],\n  \"summary\": \"讲述孙太白曾祖在寺中遭遇山魈鬼怪入侵，虽奋力抵抗但无女性角色介入，故事以异闻形式收束。\",\n  \"review_note\": \"故事中无女性角色及视角，难以进行女性主义相关标注。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9XR4fltXrXr8rXKn1b5NJVkmYI3\",\"object\":\"chat.completion\",\"created\":1774172253,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-007\\\",\\n  \\\"title\\\": \\\"山魈\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"妖怪/精魅\\\",\\n    \\\"female_centrality\\\": \\\"无\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"孫太白嘗言：其曾祖肄業于南山柳溝寺\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]},\\n    {\\\"quote\\\": \\\"忽視之，一大鬼鞠躬塞入\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]},\\n    {\\\"quote\\\": \\\"公懼極；又念咫尺之地，勢無所逃\\\", \\\"supports\\\": [\\\"female_centrality\\\"]},\\n    {\\\"quote\\\": \\\"無復他異\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"共驗之，則衾夾于寢門之隙\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"讲述孙太白曾祖在寺中遭遇山魈鬼怪入侵，虽奋力抵抗但无女性角色介入，故事以异闻形式收束。\\\",\\n  \\\"review_note\\\": \\\"故事中无女性角色及视角，难以进行女性主义相关标注。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1333,\"completion_tokens\":359,\"total_tokens\":1692,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\"}"
+  },
+  {
+    "story_id": "lzz-v01-008",
+    "title": "咬鬼",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 6.15,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-008",
+      "title": "咬鬼",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "鬼魂/冥府",
+        "female_centrality": "关键",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "女鬼/冤魂"
+        ],
+        "female_agency": "中",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "見一女子搴帘入，以白布裹首，縗服麻裙",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "女子已出。細審之，年可三十餘，顏色黃腫，眉目蹙蹙然，神情可畏",
+          "supports": [
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "女子攝衣登床，壓腹上，覺如百鈞重",
+          "supports": [
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "女子以喙嗅翁面，顴鼻眉額殆遍",
+          "supports": [
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "女子已飄忽遁去",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "夫人奔入，無所見，笑其魘夢之誣",
+          "supports": [
+            "female_perspective"
+          ]
+        },
+        {
+          "quote": "翁述其異，且言有血證焉",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "故事讲述一名男子夏日午睡时遇见一女鬼，女鬼压身并嗅其面，男子反击咬伤女鬼，女鬼逃离，事件以异闻收束。",
+      "review_note": "故事中女性形象为女鬼，缺乏女性视角和明确的女性主义议题，故feminist_angles未选。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-008\",\n  \"title\": \"咬鬼\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"鬼魂/冥府\",\n    \"female_centrality\": \"关键\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"女鬼/冤魂\"],\n    \"female_agency\": \"中\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"見一女子搴帘入，以白布裹首，縗服麻裙\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"女子已出。細審之，年可三十餘，顏色黃腫，眉目蹙蹙然，神情可畏\", \"supports\": [\"female_centrality\"]},\n    {\"quote\": \"女子攝衣登床，壓腹上，覺如百鈞重\", \"supports\": [\"female_agency\"]},\n    {\"quote\": \"女子以喙嗅翁面，顴鼻眉額殆遍\", \"supports\": [\"female_agency\"]},\n    {\"quote\": \"女子已飄忽遁去\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"夫人奔入，無所見，笑其魘夢之誣\", \"supports\": [\"female_perspective\"]},\n    {\"quote\": \"翁述其異，且言有血證焉\", \"supports\": [\"moral_evaluation\"]}\n  ],\n  \"summary\": \"故事讲述一名男子夏日午睡时遇见一女鬼，女鬼压身并嗅其面，男子反击咬伤女鬼，女鬼逃离，事件以异闻收束。\",\n  \"review_note\": \"故事中女性形象为女鬼，缺乏女性视角和明确的女性主义议题，故feminist_angles未选。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9XaYfOiCRI2Hq8hw7WMFpYDbcs8\",\"object\":\"chat.completion\",\"created\":1774172262,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-008\\\",\\n  \\\"title\\\": \\\"咬鬼\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"鬼魂/冥府\\\",\\n    \\\"female_centrality\\\": \\\"关键\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"女鬼/冤魂\\\"],\\n    \\\"female_agency\\\": \\\"中\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"見一女子搴帘入，以白布裹首，縗服麻裙\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"女子已出。細審之，年可三十餘，顏色黃腫，眉目蹙蹙然，神情可畏\\\", \\\"supports\\\": [\\\"female_centrality\\\"]},\\n    {\\\"quote\\\": \\\"女子攝衣登床，壓腹上，覺如百鈞重\\\", \\\"supports\\\": [\\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"女子以喙嗅翁面，顴鼻眉額殆遍\\\", \\\"supports\\\": [\\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"女子已飄忽遁去\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"夫人奔入，無所見，笑其魘夢之誣\\\", \\\"supports\\\": [\\\"female_perspective\\\"]},\\n    {\\\"quote\\\": \\\"翁述其異，且言有血證焉\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述一名男子夏日午睡时遇见一女鬼，女鬼压身并嗅其面，男子反击咬伤女鬼，女鬼逃离，事件以异闻收束。\\\",\\n  \\\"review_note\\\": \\\"故事中女性形象为女鬼，缺乏女性视角和明确的女性主义议题，故feminist_angles未选。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1279,\"completion_tokens\":476,\"total_tokens\":1755,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-009",
+    "title": "捉狐",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 4.45,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-009",
+      "title": "捉狐",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "狐魅叙事",
+        "female_centrality": "边缘",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "妻妾/已婚女性"
+        ],
+        "female_agency": "低",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "孫翁者，余姻家清服之伯父也",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "物大如貓，黃毛而碧嘴",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "翁亟乎夫人，以帶縶其腰",
+          "supports": [
+            "female_centrality",
+            "female_figures",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "夫人張皇四顧，不知刀之所在",
+          "supports": [
+            "female_perspective"
+          ]
+        },
+        {
+          "quote": "物已渺矣",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "笑曰：「聞當善化，今註目在此，看作如何化法。」",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "故事讲述孙翁捉狐的经历，夫人在旁协助但无实质行动，结局狐魅逃脱，故事以异闻形式收束。",
+      "review_note": "女性角色虽出现但行动有限，女性视角不明显，故女性相关标签保守处理。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-009\",\n  \"title\": \"捉狐\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"狐魅叙事\",\n    \"female_centrality\": \"边缘\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"妻妾/已婚女性\"],\n    \"female_agency\": \"低\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"孫翁者，余姻家清服之伯父也\", \"supports\": [\"story_dynasty\"]},\n    {\"quote\": \"物大如貓，黃毛而碧嘴\", \"supports\": [\"story_type_primary\"]},\n    {\"quote\": \"翁亟乎夫人，以帶縶其腰\", \"supports\": [\"female_centrality\",\"female_figures\",\"female_agency\"]},\n    {\"quote\": \"夫人張皇四顧，不知刀之所在\", \"supports\": [\"female_perspective\"]},\n    {\"quote\": \"物已渺矣\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"笑曰：「聞當善化，今註目在此，看作如何化法。」\", \"supports\": [\"moral_evaluation\"]}\n  ],\n  \"summary\": \"故事讲述孙翁捉狐的经历，夫人在旁协助但无实质行动，结局狐魅逃脱，故事以异闻形式收束。\",\n  \"review_note\": \"女性角色虽出现但行动有限，女性视角不明显，故女性相关标签保守处理。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9Xn31YWsgZa7UAAXt5Be9SYEs5L\",\"object\":\"chat.completion\",\"created\":1774172275,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-009\\\",\\n  \\\"title\\\": \\\"捉狐\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"狐魅叙事\\\",\\n    \\\"female_centrality\\\": \\\"边缘\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"妻妾/已婚女性\\\"],\\n    \\\"female_agency\\\": \\\"低\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"孫翁者，余姻家清服之伯父也\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]},\\n    {\\\"quote\\\": \\\"物大如貓，黃毛而碧嘴\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]},\\n    {\\\"quote\\\": \\\"翁亟乎夫人，以帶縶其腰\\\", \\\"supports\\\": [\\\"female_centrality\\\",\\\"female_figures\\\",\\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"夫人張皇四顧，不知刀之所在\\\", \\\"supports\\\": [\\\"female_perspective\\\"]},\\n    {\\\"quote\\\": \\\"物已渺矣\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"笑曰：「聞當善化，今註目在此，看作如何化法。」\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述孙翁捉狐的经历，夫人在旁协助但无实质行动，结局狐魅逃脱，故事以异闻形式收束。\\\",\\n  \\\"review_note\\\": \\\"女性角色虽出现但行动有限，女性视角不明显，故女性相关标签保守处理。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1145,\"completion_tokens\":399,\"total_tokens\":1544,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  },
+  {
+    "story_id": "lzz-v01-010",
+    "title": "荍中怪",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 5.77,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-010",
+      "title": "荍中怪",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "妖怪/精魅",
+        "female_centrality": "无",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [],
+        "female_agency": "无",
+        "ending_type": "惊悚收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "長山安翁者，性喜操農功",
+          "supports": [
+            "female_centrality",
+            "female_perspective",
+            "female_figures",
+            "female_agency"
+          ]
+        },
+        {
+          "quote": "忽聞有人踐荍根，咋咋作響。心疑暴客。急舉首，則一大鬼",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "翁駭曰：「鬼物來矣！」",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "遂卒。後不復見。不知其何怪也。",
+          "supports": [
+            "ending_type",
+            "moral_evaluation"
+          ]
+        },
+        {
+          "quote": "聊斋志异·卷1",
+          "supports": [
+            "story_dynasty"
+          ]
+        }
+      ],
+      "summary": "故事讲述一位农夫遭遇赤发大鬼袭击，最终受伤身亡，结局惊悚，未涉及女性视角。",
+      "review_note": "故事中无女性角色或视角，女性主义标签难以适用。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-010\",\n  \"title\": \"荍中怪\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"妖怪/精魅\",\n    \"female_centrality\": \"无\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"惊悚收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"長山安翁者，性喜操農功\", \"supports\": [\"female_centrality\", \"female_perspective\", \"female_figures\", \"female_agency\"]},\n    {\"quote\": \"忽聞有人踐荍根，咋咋作響。心疑暴客。急舉首，則一大鬼\", \"supports\": [\"story_type_primary\"]},\n    {\"quote\": \"翁駭曰：「鬼物來矣！」\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"遂卒。後不復見。不知其何怪也。\", \"supports\": [\"ending_type\", \"moral_evaluation\"]},\n    {\"quote\": \"聊斋志异·卷1\", \"supports\": [\"story_dynasty\"]}\n  ],\n  \"summary\": \"故事讲述一位农夫遭遇赤发大鬼袭击，最终受伤身亡，结局惊悚，未涉及女性视角。\",\n  \"review_note\": \"故事中无女性角色或视角，女性主义标签难以适用。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9XyGIo0MWrrKgG8NhEUbRQkoYJP\",\"object\":\"chat.completion\",\"created\":1774172286,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-010\\\",\\n  \\\"title\\\": \\\"荍中怪\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"妖怪/精魅\\\",\\n    \\\"female_centrality\\\": \\\"无\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"惊悚收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"長山安翁者，性喜操農功\\\", \\\"supports\\\": [\\\"female_centrality\\\", \\\"female_perspective\\\", \\\"female_figures\\\", \\\"female_agency\\\"]},\\n    {\\\"quote\\\": \\\"忽聞有人踐荍根，咋咋作響。心疑暴客。急舉首，則一大鬼\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]},\\n    {\\\"quote\\\": \\\"翁駭曰：「鬼物來矣！」\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"遂卒。後不復見。不知其何怪也。\\\", \\\"supports\\\": [\\\"ending_type\\\", \\\"moral_evaluation\\\"]},\\n    {\\\"quote\\\": \\\"聊斋志异·卷1\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"故事讲述一位农夫遭遇赤发大鬼袭击，最终受伤身亡，结局惊悚，未涉及女性视角。\\\",\\n  \\\"review_note\\\": \\\"故事中无女性角色或视角，女性主义标签难以适用。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1232,\"completion_tokens\":375,\"total_tokens\":1607,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  }
+]

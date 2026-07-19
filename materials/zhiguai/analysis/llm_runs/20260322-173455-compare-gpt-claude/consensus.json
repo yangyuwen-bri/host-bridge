@@ -1,0 +1,16 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "qc_status": "disagreed",
+    "consensus": null,
+    "gpt_valid": true,
+    "peer_valid": true,
+    "gpt_issues": [],
+    "peer_issues": [],
+    "models": [
+      "gpt-4.1-mini",
+      "claude-3-5-sonnet-20241022"
+    ]
+  }
+]

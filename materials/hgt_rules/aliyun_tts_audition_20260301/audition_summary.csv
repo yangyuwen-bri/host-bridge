@@ -1,0 +1,14 @@
+type,name,label,status,file,detail
+system,Cherry,女声-悬疑讲述,ok,01_Cherry.wav,
+system,Chelsie,女声-温柔叙述,ok,02_Chelsie.wav,
+system,Serena,女声-知性纪录片,ok,03_Serena.wav,
+system,Ethan,男声-低沉悬疑,ok,04_Ethan.wav,
+system,Dylan,男声-电影预告感,failed,,HTTP Error 400: Bad Request
+system,Jada,女声-短视频口播,failed,,HTTP Error 400: Bad Request
+system,Sunny,中性-年轻感,failed,,HTTP Error 400: Bad Request
+custom,voiceA1,悬疑女声-冷静,ok,custom_01_voiceA1.wav,qwen-tts-vd-voiceA1-voice-20260301150457775-1b59
+custom,voiceA2,悬疑男声-低沉,ok,custom_02_voiceA2.wav,qwen-tts-vd-voiceA2-voice-20260301150503358-65bf
+custom,voiceA3,知性女声-纪录片,ok,custom_03_voiceA3.wav,qwen-tts-vd-voiceA3-voice-20260301150509108-8924
+custom,voiceA4,年轻中性-短视频,ok,custom_04_voiceA4.wav,qwen-tts-vd-voiceA4-voice-20260301150515249-0477
+custom,voiceA5,成熟女声-情绪推进,ok,custom_05_voiceA5.wav,qwen-tts-vd-voiceA5-voice-20260301150523122-05cf
+custom,voiceA6,成熟男声-电影预告,ok,custom_06_voiceA6.wav,qwen-tts-vd-voiceA6-voice-20260301150530432-212f

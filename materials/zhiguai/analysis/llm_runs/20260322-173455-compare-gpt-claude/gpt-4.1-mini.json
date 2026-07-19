@@ -1,0 +1,65 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "model": "gpt-4.1-mini",
+    "status": 200,
+    "latency_s": 4.49,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-001",
+      "title": "考城隍",
+      "labels": {
+        "story_dynasty": "宋",
+        "story_type_primary": "仙神/龙女",
+        "female_centrality": "边缘",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "母亲/婆妪"
+        ],
+        "female_agency": "无",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "但老母七旬，奉養無人",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "請得終其天年，惟聽錄用",
+          "supports": [
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "母聞棺中呻吟，扶出半日",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "及抵里，豁若夢寤",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "公有自記小傳，惜亂後無存",
+          "supports": [
+            "moral_evaluation"
+          ]
+        }
+      ],
+      "summary": "宋代故事，讲述一位男子被召考城隍，因孝顺母亲请求延后赴任，母亲去世后男子显灵，故事以异闻形式收束。",
+      "review_note": "故事女性角色有限，女性视角和能动性不明显，故女性相关标签保守处理。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-001\",\n  \"title\": \"考城隍\",\n  \"labels\": {\n    \"story_dynasty\": \"宋\",\n    \"story_type_primary\": \"仙神/龙女\",\n    \"female_centrality\": \"边缘\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"母亲/婆妪\"],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"但老母七旬，奉養無人\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"請得終其天年，惟聽錄用\", \"supports\": [\"female_centrality\"]},\n    {\"quote\": \"母聞棺中呻吟，扶出半日\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"及抵里，豁若夢寤\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"公有自記小傳，惜亂後無存\", \"supports\": [\"moral_evaluation\"]}\n  ],\n  \"summary\": \"宋代故事，讲述一位男子被召考城隍，因孝顺母亲请求延后赴任，母亲去世后男子显灵，故事以异闻形式收束。\",\n  \"review_note\": \"故事女性角色有限，女性视角和能动性不明显，故女性相关标签保守处理。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-DM9UzyL6nopaozT7JMGsqOC5ATXhx\",\"object\":\"chat.completion\",\"created\":1774172101,\"model\":\"gpt-4.1-mini\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-001\\\",\\n  \\\"title\\\": \\\"考城隍\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"宋\\\",\\n    \\\"story_type_primary\\\": \\\"仙神/龙女\\\",\\n    \\\"female_centrality\\\": \\\"边缘\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"母亲/婆妪\\\"],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"但老母七旬，奉養無人\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"請得終其天年，惟聽錄用\\\", \\\"supports\\\": [\\\"female_centrality\\\"]},\\n    {\\\"quote\\\": \\\"母聞棺中呻吟，扶出半日\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"及抵里，豁若夢寤\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"公有自記小傳，惜亂後無存\\\", \\\"supports\\\": [\\\"moral_evaluation\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"宋代故事，讲述一位男子被召考城隍，因孝顺母亲请求延后赴任，母亲去世后男子显灵，故事以异闻形式收束。\\\",\\n  \\\"review_note\\\": \\\"故事女性角色有限，女性视角和能动性不明显，故女性相关标签保守处理。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\",\"refusal\":null,\"annotations\":[]},\"logprobs\":null,\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1479,\"completion_tokens\":363,\"total_tokens\":1842,\"prompt_tokens_details\":{\"cached_tokens\":0,\"audio_tokens\":0},\"completion_tokens_details\":{\"reasoning_tokens\":0,\"audio_tokens\":0,\"accepted_prediction_tokens\":0,\"rejected_prediction_tokens\":0}},\"system_fingerprint\":\"fp_b6f445fc1c\",\"service_tier\":\"default\"}"
+  }
+]

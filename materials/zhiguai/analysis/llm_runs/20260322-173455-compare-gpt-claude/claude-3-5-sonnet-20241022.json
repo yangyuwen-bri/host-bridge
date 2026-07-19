@@ -1,0 +1,85 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "model": "claude-3-5-sonnet-20241022",
+    "status": 200,
+    "latency_s": 6.81,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-001",
+      "title": "考城隍",
+      "labels": {
+        "story_dynasty": "宋",
+        "story_type_primary": "杂志异闻",
+        "female_centrality": "边缘",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [
+          "母亲/婆妪"
+        ],
+        "female_agency": "无",
+        "ending_type": "异闻收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "但老母七旬，奉养无人",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "请得终其天年，惟听录用",
+          "supports": [
+            "female_agency",
+            "female_centrality"
+          ]
+        },
+        {
+          "quote": "母闻棺中呻吟，扶出半日，始能语",
+          "supports": [
+            "female_figures"
+          ]
+        },
+        {
+          "quote": "及抵里，豁若梦寤",
+          "supports": [
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "公有自记小传",
+          "supports": [
+            "female_perspective"
+          ]
+        },
+        {
+          "quote": "邑廩生",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "忽见公鏤膺朱幩，輿馬甚眾",
+          "supports": [
+            "story_type_primary",
+            "ending_type"
+          ]
+        },
+        {
+          "quote": "河南缺一城隍，君称其职",
+          "supports": [
+            "story_type_primary"
+          ]
+        }
+      ],
+      "summary": "讲述宋代一男子病重被召试城隍之职，因顾虑年迈母亲请求延迟上任，最终九年后母亲去世，男子以神形回归乡里，故事侧重异闻叙述。",
+      "review_note": "女性形象主要作为照护老人角色出现，女性视角和主体表现不明显，故事重心在男性经历及神职，故女性主义角度有限。",
+      "confidence": "高"
+    },
+    "raw_content": "```json\n{\n  \"story_id\": \"lzz-v01-001\",\n  \"title\": \"考城隍\",\n  \"labels\": {\n    \"story_dynasty\": \"宋\",\n    \"story_type_primary\": \"杂志异闻\",\n    \"female_centrality\": \"边缘\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [\"母亲/婆妪\"],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"异闻收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\"quote\": \"但老母七旬，奉养无人\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"请得终其天年，惟听录用\", \"supports\": [\"female_agency\",\"female_centrality\"]},\n    {\"quote\": \"母闻棺中呻吟，扶出半日，始能语\", \"supports\": [\"female_figures\"]},\n    {\"quote\": \"及抵里，豁若梦寤\", \"supports\": [\"ending_type\"]},\n    {\"quote\": \"公有自记小传\", \"supports\": [\"female_perspective\"]},\n    {\"quote\": \"邑廩生\", \"supports\": [\"story_dynasty\"]},\n    {\"quote\": \"忽见公鏤膺朱幩，輿馬甚眾\", \"supports\": [\"story_type_primary\",\"ending_type\"]},\n    {\"quote\": \"河南缺一城隍，君称其职\", \"supports\": [\"story_type_primary\"]}\n  ],\n  \"summary\": \"讲述宋代一男子病重被召试城隍之职，因顾虑年迈母亲请求延迟上任，最终九年后母亲去世，男子以神形回归乡里，故事侧重异闻叙述。\",\n  \"review_note\": \"女性形象主要作为照护老人角色出现，女性视角和主体表现不明显，故事重心在男性经历及神职，故女性主义角度有限。\",\n  \"confidence\": \"高\"\n}\n```",
+    "raw_response": "{\"id\":\"chatcmpl-pth06rc14j\",\"model\":\"claude-3-5-sonnet-20241022\",\"object\":\"chat.completion\",\"created\":1774172111,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"```json\\n{\\n  \\\"story_id\\\": \\\"lzz-v01-001\\\",\\n  \\\"title\\\": \\\"考城隍\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"宋\\\",\\n    \\\"story_type_primary\\\": \\\"杂志异闻\\\",\\n    \\\"female_centrality\\\": \\\"边缘\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [\\\"母亲/婆妪\\\"],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"异闻收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\\"quote\\\": \\\"但老母七旬，奉养无人\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"请得终其天年，惟听录用\\\", \\\"supports\\\": [\\\"female_agency\\\",\\\"female_centrality\\\"]},\\n    {\\\"quote\\\": \\\"母闻棺中呻吟，扶出半日，始能语\\\", \\\"supports\\\": [\\\"female_figures\\\"]},\\n    {\\\"quote\\\": \\\"及抵里，豁若梦寤\\\", \\\"supports\\\": [\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"公有自记小传\\\", \\\"supports\\\": [\\\"female_perspective\\\"]},\\n    {\\\"quote\\\": \\\"邑廩生\\\", \\\"supports\\\": [\\\"story_dynasty\\\"]},\\n    {\\\"quote\\\": \\\"忽见公鏤膺朱幩，輿馬甚眾\\\", \\\"supports\\\": [\\\"story_type_primary\\\",\\\"ending_type\\\"]},\\n    {\\\"quote\\\": \\\"河南缺一城隍，君称其职\\\", \\\"supports\\\": [\\\"story_type_primary\\\"]}\\n  ],\\n  \\\"summary\\\": \\\"讲述宋代一男子病重被召试城隍之职，因顾虑年迈母亲请求延迟上任，最终九年后母亲去世，男子以神形回归乡里，故事侧重异闻叙述。\\\",\\n  \\\"review_note\\\": \\\"女性形象主要作为照护老人角色出现，女性视角和主体表现不明显，故事重心在男性经历及神职，故女性主义角度有限。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\\n```\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1672,\"completion_tokens\":549,\"total_tokens\":2221,\"prompt_tokens_details\":{\"cached_tokens\":0,\"text_tokens\":0,\"audio_tokens\":0,\"image_tokens\":0},\"completion_tokens_details\":{\"text_tokens\":0,\"audio_tokens\":0,\"reasoning_tokens\":0},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null,\"claude_cache_creation_5_m_tokens\":0,\"claude_cache_creation_1_h_tokens\":0}}"
+  }
+]

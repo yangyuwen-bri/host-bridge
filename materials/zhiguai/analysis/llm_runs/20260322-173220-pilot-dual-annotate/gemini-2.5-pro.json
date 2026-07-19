@@ -1,0 +1,161 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 18.02,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-3732a355fd5f4cdd8a5e3c8b0c22ad80\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774171972,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1400,\"completion_tokens\":1397,\"total_tokens\":2797,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-002",
+    "title": "耳中人",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 17.29,
+    "valid": true,
+    "issues": [],
+    "output": {
+      "story_id": "lzz-v01-002",
+      "title": "耳中人",
+      "labels": {
+        "story_dynasty": "清",
+        "story_type_primary": "杂志异闻",
+        "female_centrality": "无",
+        "female_perspective": "无明显女性视角",
+        "female_figures": [],
+        "female_agency": "无",
+        "ending_type": "惊悚收束",
+        "moral_evaluation": "弱评价/异闻观照",
+        "feminist_angles": []
+      },
+      "evidence": [
+        {
+          "quote": "譚晉，邑諸生也",
+          "supports": [
+            "story_dynasty"
+          ]
+        },
+        {
+          "quote": "聞耳中小語如蠅",
+          "supports": [
+            "story_type_primary"
+          ]
+        },
+        {
+          "quote": "遂得顛疾，號叫不休",
+          "supports": [
+            "ending_type"
+          ]
+        }
+      ],
+      "summary": "书生谭晋痴迷导引之术，耳中幻听并化出狰狞小人，因邻人惊扰导致小人消失，谭晋随即精神失常，半年后才痊愈。",
+      "review_note": "该故事主角为男性，全文未出现任何女性角色或相关性别议题。",
+      "confidence": "高"
+    },
+    "raw_content": "{\n  \"story_id\": \"lzz-v01-002\",\n  \"title\": \"耳中人\",\n  \"labels\": {\n    \"story_dynasty\": \"清\",\n    \"story_type_primary\": \"杂志异闻\",\n    \"female_centrality\": \"无\",\n    \"female_perspective\": \"无明显女性视角\",\n    \"female_figures\": [],\n    \"female_agency\": \"无\",\n    \"ending_type\": \"惊悚收束\",\n    \"moral_evaluation\": \"弱评价/异闻观照\",\n    \"feminist_angles\": []\n  },\n  \"evidence\": [\n    {\n      \"quote\": \"譚晉，邑諸生也\",\n      \"supports\": [\n        \"story_dynasty\"\n      ]\n    },\n    {\n      \"quote\": \"聞耳中小語如蠅\",\n      \"supports\": [\n        \"story_type_primary\"\n      ]\n    },\n    {\n      \"quote\": \"遂得顛疾，號叫不休\",\n      \"supports\": [\n        \"ending_type\"\n      ]\n    }\n  ],\n  \"summary\": \"书生谭晋痴迷导引之术，耳中幻听并化出狰狞小人，因邻人惊扰导致小人消失，谭晋随即精神失常，半年后才痊愈。\",\n  \"review_note\": \"该故事主角为男性，全文未出现任何女性角色或相关性别议题。\",\n  \"confidence\": \"高\"\n}",
+    "raw_response": "{\"id\":\"chatcmpl-70122bf6e53c48c089e09fbff2e662ae\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774171994,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"{\\n  \\\"story_id\\\": \\\"lzz-v01-002\\\",\\n  \\\"title\\\": \\\"耳中人\\\",\\n  \\\"labels\\\": {\\n    \\\"story_dynasty\\\": \\\"清\\\",\\n    \\\"story_type_primary\\\": \\\"杂志异闻\\\",\\n    \\\"female_centrality\\\": \\\"无\\\",\\n    \\\"female_perspective\\\": \\\"无明显女性视角\\\",\\n    \\\"female_figures\\\": [],\\n    \\\"female_agency\\\": \\\"无\\\",\\n    \\\"ending_type\\\": \\\"惊悚收束\\\",\\n    \\\"moral_evaluation\\\": \\\"弱评价/异闻观照\\\",\\n    \\\"feminist_angles\\\": []\\n  },\\n  \\\"evidence\\\": [\\n    {\\n      \\\"quote\\\": \\\"譚晉，邑諸生也\\\",\\n      \\\"supports\\\": [\\n        \\\"story_dynasty\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"聞耳中小語如蠅\\\",\\n      \\\"supports\\\": [\\n        \\\"story_type_primary\\\"\\n      ]\\n    },\\n    {\\n      \\\"quote\\\": \\\"遂得顛疾，號叫不休\\\",\\n      \\\"supports\\\": [\\n        \\\"ending_type\\\"\\n      ]\\n    }\\n  ],\\n  \\\"summary\\\": \\\"书生谭晋痴迷导引之术，耳中幻听并化出狰狞小人，因邻人惊扰导致小人消失，谭晋随即精神失常，半年后才痊愈。\\\",\\n  \\\"review_note\\\": \\\"该故事主角为男性，全文未出现任何女性角色或相关性别议题。\\\",\\n  \\\"confidence\\\": \\\"高\\\"\\n}\"},\"finish_reason\":\"stop\"}],\"usage\":{\"prompt_tokens\":1062,\"completion_tokens\":1133,\"total_tokens\":2195,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":780},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-003",
+    "title": "尸變",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 16.08,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-cdf98ffeda744b2a8ddedc5e10bdac00\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172016,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1673,\"completion_tokens\":1397,\"total_tokens\":3070,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-004",
+    "title": "噴水",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 28.61,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-3ff7f787f35044eca47e6c270e2fac1a\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172049,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1111,\"completion_tokens\":1397,\"total_tokens\":2508,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-005",
+    "title": "瞳人語",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 17.93,
+    "valid": false,
+    "issues": [
+      "invalid_json"
+    ],
+    "output": null,
+    "raw_content": "[Gemini Error: PROHIBITED_CONTENT] Content was blocked due to prohibited content",
+    "raw_response": "{\"id\":\"chatcmpl-2e7b21f1ad6c42cca9dd7cfbc57f2368\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172073,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"[Gemini Error: PROHIBITED_CONTENT] Content was blocked due to prohibited content\"},\"finish_reason\":\"content_filter\"}],\"usage\":{\"prompt_tokens\":1743,\"completion_tokens\":1397,\"total_tokens\":3140,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-006",
+    "title": "畫壁",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 28.74,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-a03cf6f466d64d8a97b51332697bfac7\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172113,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1729,\"completion_tokens\":1397,\"total_tokens\":3126,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-007",
+    "title": "山魈",
+    "model": "gemini-2.5-pro",
+    "status": null,
+    "latency_s": 21.06,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": null,
+    "raw_response": "<urlopen error [Errno 54] Connection reset by peer>"
+  },
+  {
+    "story_id": "lzz-v01-008",
+    "title": "咬鬼",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 15.88,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-e417baf5e03a42e2982753fe88f026e1\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172181,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1212,\"completion_tokens\":1397,\"total_tokens\":2609,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-009",
+    "title": "捉狐",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 16.28,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-466489ea22ac403c96379a3c982db40c\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172203,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1094,\"completion_tokens\":1397,\"total_tokens\":2491,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  },
+  {
+    "story_id": "lzz-v01-010",
+    "title": "荍中怪",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 22.94,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-a6e30d2718da4d799bbabcb762303a70\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172231,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1179,\"completion_tokens\":1397,\"total_tokens\":2576,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  }
+]

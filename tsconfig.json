@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "src/app/**/*.ts", "src/app/**/*.tsx", "src/components/story-studio/**/*.ts", "src/components/story-studio/**/*.tsx", "src/components/ui/icons/**/*.ts", "src/components/ui/icons/**/*.tsx", "src/lib/social-news-video/**/*.ts", "src/lib/story-knowledge/**/*.ts", "src/lib/story-materials/**/*.ts", "src/lib/story-runner/**/*.ts", "src/lib/ffmpeg/**/*.ts", "src/lib/api-errors.ts", "src/lib/google-api.ts", "scripts/run-story-full-aliyun.ts", "scripts/compose-story-video.ts", "scripts/apply-story-subtitles.ts", "scripts/plan-social-hot-story-video.ts", "scripts/publish-story-release.ts", ".next/types/**/*.ts"],
+  "exclude": ["node_modules", "tmp", "**/*.test.ts", "**/*.test.tsx"]
+}

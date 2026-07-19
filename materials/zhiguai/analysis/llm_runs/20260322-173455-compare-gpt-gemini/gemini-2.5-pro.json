@@ -1,0 +1,14 @@
+[
+  {
+    "story_id": "lzz-v01-001",
+    "title": "考城隍",
+    "model": "gemini-2.5-pro",
+    "status": 200,
+    "latency_s": 16.7,
+    "valid": false,
+    "issues": [],
+    "output": null,
+    "raw_content": "",
+    "raw_response": "{\"id\":\"chatcmpl-32d9037c74274394b0afbf9c49aedada\",\"model\":\"gemini-2.5-pro\",\"object\":\"chat.completion\",\"created\":1774172122,\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"content\":\"\"},\"finish_reason\":\"MAX_TOKENS\"}],\"usage\":{\"prompt_tokens\":1400,\"completion_tokens\":1397,\"total_tokens\":2797,\"prompt_tokens_details\":{},\"completion_tokens_details\":{\"audio_tokens\":0,\"reasoning_tokens\":1397},\"input_tokens\":0,\"output_tokens\":0,\"input_tokens_details\":null}}"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "counts": {
+    "('gpt-4.1-mini', 200, True)": 10,
+    "('claude-3-5-sonnet-20241022', 200, True)": 10,
+    "('qc', 'disagreed')": 7,
+    "('qc', 'agreed')": 3
+  }
+}

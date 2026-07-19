@@ -1,0 +1,7 @@
+idx,preferred_name,label,status,voice_prompt,preview_text,voice_id,request_id,local_file,error
+1,voiceA1,悬疑女声-冷静,ok,中文女声，25岁，冷静克制，悬疑感强，尾音轻压。,凌晨一点，电梯在十三层停住了。门外没人，只有一张写着别回头的纸条。,qwen-tts-vd-voiceA1-voice-20260301150457775-1b59,defdf512-b980-4ec8-8cae-7773b63795d3,custom_01_voiceA1.wav,
+2,voiceA2,悬疑男声-低沉,ok,中文男声，30岁，低沉磁性，侦探旁白风格。,我把监控回放看了三遍，每一帧里都多出一个人，而那个人就是我。,qwen-tts-vd-voiceA2-voice-20260301150503358-65bf,16d49509-617c-46f6-8f71-7ffa1cfceffd,custom_02_voiceA2.wav,
+3,voiceA3,知性女声-纪录片,ok,中文女声，知性稳重，吐字清晰，信息密度高。,这座楼在过去十年一共发生过七次失踪案，唯一共同点是都发生在十三层。,qwen-tts-vd-voiceA3-voice-20260301150509108-8924,081a4ef9-4a1d-4a4b-870d-74d8db83e26c,custom_03_voiceA3.wav,
+4,voiceA4,年轻中性-短视频,ok,中文中性声线，年轻自然，节奏明快，适合社媒故事口播。,如果你在深夜看到电梯停在不存在的楼层，记住一条规则，千万别先开口。,qwen-tts-vd-voiceA4-voice-20260301150515249-0477,d94e9ae7-9f69-44e4-9346-a616d1da088c,custom_04_voiceA4.wav,
+5,voiceA5,成熟女声-情绪推进,ok,中文女声，30岁，情绪层层推进，前半平静后半紧张。,起初我以为那只是恶作剧，直到门缝里慢慢塞进第二张纸条，上面写着我知道你在看。,qwen-tts-vd-voiceA5-voice-20260301150523122-05cf,3cb10ba2-2f2f-46f1-b778-4aef0fd7ef55,custom_05_voiceA5.wav,
+6,voiceA6,成熟男声-电影预告,ok,中文男声，沉稳有压迫感，像电影预告解说。,当倒计时归零，整栋楼会熄灯三十秒，而那三十秒里，所有镜子都不属于你。,qwen-tts-vd-voiceA6-voice-20260301150530432-212f,163fd526-a325-4229-9878-8578fc6e6b9c,custom_06_voiceA6.wav,
